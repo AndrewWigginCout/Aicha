@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap');
+:root {
+  background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+
+}
+
+body {
+  font-family: 'Old Standard TT', serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: var(--color-white);
+  margin: 0;
+    padding: 50px 0;
+    
+
+}
+h1 {
+  font-weight: 400;
+  line-height: 1.2;
+  color: white;
+   text-shadow: 2px 1px #ffffff;
+
+  text-align: center;
+
+}
+
+p {
+  font-size: 1.125rem;
+   margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: white;
+     text-align: center;
+
+
+
+}
+label {
+  display: flex;
+  align-items: center;
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+.container {
+  width: 100%;
+  margin: 3.125rem auto 0 auto;
+}
+.header {
+  padding: 0 0.625rem;
+  margin-bottom: 1.875rem;
+
+}
+
+.description {
+  font-style: italic;
+  font-weight: 200;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+
+}
+.text-center {
+  text-align: center;
+   color: black;
+}
+
+form {
+  background-color: #fff;
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 30px 20px;
+            box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+    
+}
+#survey-form{
+  background-color: #fff;
+            max-width: 500px;
+            margin: 50px auto;
+            padding: 30px 20px;
+            box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+ #submit {            position: relative;
+      background-color: #fcb045;
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-size: 21px;
+            display: block;
+            width: 100%;
+            margin-top: 50px;
+            margin-bottom: 20px;
+           font-family: 'Old Standard TT', serif;
+
+}
+ #comments {position: relative;
+            border: 1px solid #777;
+            border-radius: 2px;
+            padding: 10px;
+            display: block;
+            width: 95%;
+  font-family: 'Old Standard TT', serif;
+
+  }
+  #dropdown {position: relative;
+            border: 1px solid #777;
+            border-radius: 2px;
+            padding: 10px;
+            display: block;
+            width: 95%;
+              font-family: 'Old Standard TT', serif;
+
+
+
+}

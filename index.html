@@ -1,0 +1,129 @@
+<head>  
+<fieldset><h1 id="title"  class="text-center">Survey on myself</h1>
+    <p id="description" class="description text-center">
+     This survey is on how I can be more amazing thanks to your input. 
+    </p></fieldset>
+    </head>
+  
+<body>
+  <form id="survey-form">
+  <fieldset>
+
+   
+            <label for="name" id="name-label">
+                Name
+            </label>
+             <input id="name" type="text" required placeholder="Enter your name" />
+  
+            <label for="email" id="email-label">
+                Email
+            </label>
+              <input id="email" type="email" required placeholder="Enter your email" />
+        
+ 
+            <label for="age" id="number-label">
+                Age (under 20 not allowed this survey)
+            </label>
+   <input id="number" type="number" min="20" max="99" required placeholder="Enter your age"/>
+                   </fieldset>
+
+        <p class="text-center" >Which option best describes you? </p>
+  <label for="role" id="label-role">
+        
+            </label> 
+              <select name="role" id="role">
+                <option value="student">Student and rich</option>
+                <option value="intern">Intern begone</option>
+                <option value="professional">
+                    Professional daddy
+                </option>
+                <option value="other">Other & rich </option>
+            </select> 
+
+                   <fieldset>
+
+     <legend class="text-center"><br>  Would you recommend me to a friend?</legend>
+      <label >
+        <input
+          name="user-recommend"
+          value="yes"
+          type="radio"
+          class="input-radio"
+          checked
+        />yes</label
+      >
+      <label>
+        <input
+          name="user-recommend"
+          value="yes-with-pleasure"
+          type="radio"
+          class="input-radio"
+        />yes with pleasure</label
+      >
+
+      <label 
+        ><input 
+          name="user-recommend"
+          value="YES"
+          type="radio"
+          class="input-radio"
+        />YES</label
+      >                   </fieldset>
+
+
+      <p class="text-center" >
+        What is your favorite thing about me?
+      </p>
+      <select id="dropdown" name="mostLike" class="form-control" required>
+        <option disabled selected value>Select an option</option>
+        <option value="Humor">Humor</option>
+        <option value="sexy">My sexy bod</option>
+        <option value="mental">My mental illnesses</option>
+        <option value="everything">Everything! choose this one </option>
+      </select>
+
+                     <fieldset>
+    <legend class="text-center" >
+        What would you like to gift me to show loyality?
+        <span class="clue"></span>
+    </legend>
+
+      <label 
+        ><input
+          name="prefer"
+          value="house"
+          type="checkbox"
+          class="input-checkbox"
+        />House in maldives </label
+      >
+      <label >
+        <input
+          name="prefer"
+          value="car"
+          type="checkbox"
+          class="input-checkbox"
+        />A fancy car</label
+      >
+      <label 
+        ><input
+          name="prefer"
+          value="yourself"
+          type="checkbox"
+          class="input-checkbox"
+        />Everything plus yourself</label
+      >
+                        </fieldset>
+
+      <p class="text-center" >Any compliments?</p>
+      <textarea 
+        id="comments"
+        class="input-textarea"
+        name="comment"
+        placeholder="Confess your love here..."
+      ></textarea>
+      <button   type="submit" id="submit" class="submit-button">
+        Submit
+      </button>
+    
+  </form>
+</body>

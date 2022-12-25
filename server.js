@@ -1,14 +1,13 @@
 const express = require('express')
-const path    = require('path')
 const app = express()
 const morgan = require('morgan')
 app.use(morgan('tiny'))
 app.use(express.urlencoded())
 
-app.post('/index.html', (req,res)=>{
+app.post('/', (req,res)=>{
   console.log('POST')
   req.body.date=new Date()
-  var car = req.body.prefer.includes("car")
+  var car = req.body.prefer && req.body.prefer.includes("car")
   var json = JSON.stringify(req.body,null,2)
   var rs = "POST RECIEVED<br/>"
   if (car){
